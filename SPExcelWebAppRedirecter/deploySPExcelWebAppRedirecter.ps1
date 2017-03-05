@@ -130,10 +130,10 @@ function deploySPSolution{
         Write-Host 'Executing >'$command -ForegroundColor:Green -BackgroundColor:Black;
         Invoke-Expression $command;
         
-        $command='Install-SPSolution –Identity "'+$WSPName+'" -confirm:$false';
+        $command='Install-SPSolution -Identity "'+$WSPName+'" -confirm:$false';
         if($GACDeployment)
         {
-            $command+=' –GACDeployment';
+            $command+=' -GACDeployment';
         }
         if($AllWebApplications)
         {
