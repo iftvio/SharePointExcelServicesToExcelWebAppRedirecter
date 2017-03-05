@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="33fa1b56-4147-49f5-86a9-0e456e92044c" solutionId="33fa1b56-4147-49f5-86a9-0e456e92044c" resetWebServer="false" sharePointProductVersion="15.0" name="SPExcelWebAppRedirecter" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="ExcelWebAppRedirecter.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\ExcelWebAppRedirecter\ExcelWebAppRedirecter.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="106dbce4-3ab3-4a56-a474-b7d656ae70d3" />
+  </features>
+</package>
